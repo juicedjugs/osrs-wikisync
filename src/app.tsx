@@ -7,6 +7,7 @@ import AchievementList from "./components/AchievementList";
 import UserLookup from "./components/UserLookup";
 import { AppProvider, useApp } from "./state";
 // Adding comment to manually trigger rebuild.
+console.log(new Date());
 const CombatSection = () => {
   const { state } = useApp();
   const { showCombatList } = state;
