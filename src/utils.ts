@@ -471,8 +471,7 @@ export const fetchWikiPlayerData = async (
   try {
     const response = await fetch(URL, {
       headers: {
-        "User-Agent":
-          "Mozilla/5.0 (compatible; RuneProfileBot/1.0; +https://runeprofile.com/)",
+        "User-Agent": "Mozilla/5.0 (compatible; HopeThisWorks/1.0)",
         Accept: "application/json",
       },
     });
